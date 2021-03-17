@@ -1,0 +1,6 @@
+module Pods_react_native_redux_starter_react_native_redux_starterTests {
+  umbrella header "Pods-react_native_redux_starter-react_native_redux_starterTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
