@@ -8,7 +8,7 @@ import { TestPageContainer } from '../resource/test/view/test.container';
 function Feed() {
     return (
         <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-            <Text>Bujji Cutie!</Text>
+            <Text>Home!</Text>
         </View>
     );
 }
