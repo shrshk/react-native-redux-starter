@@ -3,11 +3,12 @@ import { Text, View } from 'react-native';
 import { NavigationContainer } from '@react-navigation/native';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import MaterialCommunityIcons from 'react-native-vector-icons/MaterialCommunityIcons';
+import { TestPageContainer } from '../resource/test/view/test.container';
 
 function Feed() {
     return (
         <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-            <Text>Feed!</Text>
+            <Text>Bujji Cutie!</Text>
         </View>
     );
 }
@@ -60,7 +61,7 @@ function TeslaBottomNav() {
             />
             <Tab.Screen
                 name="Profile"
-                component={Profile}
+                component={TestPageContainer}
                 options={{
           tabBarLabel: 'Profile',
           tabBarIcon: ({ color, size }) => (
