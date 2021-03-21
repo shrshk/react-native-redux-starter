@@ -20,3 +20,5 @@ https://callstack.github.io/react-native-paper/getting-started.html
 #setup
 https://reactnavigation.org/docs/getting-started/
 
+
+![alt text](https://github.com/shrshk/react-native-redux-starter/blob/master/app-demo.png)
